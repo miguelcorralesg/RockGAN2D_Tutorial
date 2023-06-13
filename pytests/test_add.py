@@ -1,6 +1,6 @@
 import pytest
 
-from package.add import add
+from rockgan2d.add import add
 
 par1 = {'x': 10, 'y': 4} 
 par2 = {'x': -2, 'y': 2}

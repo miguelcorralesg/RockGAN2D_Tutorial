@@ -1,7 +1,10 @@
 ![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
 
-Reproducible material for **XXX -
-Ravasi M., Author M., Author C.** submitted to XXX.
+
+> **GANs for binary porous media generation in 2D**\
+> Generative Adversarial Networks tutorial\
+> Corrales M.<sup>1</sup>, Ravasi M.<sup>1</sup>\
+> King Abdullah University of Science and Technology (KAUST)<sup>1</sup>
 
 
 ## Project structure
@@ -45,5 +48,6 @@ Finally, to run tests simply type:
 pytest
 ```
 
-**Disclaimer:** All experiments have been carried on a Intel(R) Xeon(R) CPU @ 2.10GHz equipped with a single NVIDIA GEForce RTX 3090 GPU. Different environment 
-configurations may be required for different combinations of workstation and GPU.
+> **Note** <br>
+> All experiments have been carried on a Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz equipped with a single NVIDIA TESLA A100 GPU. Different 
+> environment configurations may be required for different combinations of workstation and GPU.

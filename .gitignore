@@ -23,3 +23,6 @@ package/version.py
 # Development #
 .ipynb_checkpoints/
 
+# Large files
+old_files/
+
