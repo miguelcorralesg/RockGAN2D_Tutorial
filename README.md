@@ -49,5 +49,5 @@ pytest
 ```
 
 > **Note** <br>
-> All experiments have been carried on a Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz equipped with a single NVIDIA TESLA A100 GPU. Different 
+> All experiments have been carried on a Intel(R) Xeon(R) W-2245 CPU @ 3.90GHz equipped with a single NVIDIA Quadro RTX 4000 GPU. Different 
 > environment configurations may be required for different combinations of workstation and GPU.
