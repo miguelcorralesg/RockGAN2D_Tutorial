@@ -25,4 +25,5 @@ package/version.py
 
 # Large files
 old_files/
+mnist/
 
