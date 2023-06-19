@@ -29,8 +29,8 @@ The following notebooks are provided:
 - :orange_book: ``01_Rock_Samples.ipynb``: notebook performing an illustrative demonstration of the appearance of rock samples and highlights the importance of generating additional digital samples.
 - :orange_book: ``02_MNIST_GAN_Tutorial.ipynb``: notebook performing a simple GAN tutorial using the MNIST dataset. Generator and Discriminator are built using linear layers. 
 - :orange_book: ``03_RockGAN2D_Beadpack_Tutorial.ipynb``: notebook performing a GAN tutorial using the beadpack dataset where we keep the same architecture and hyperparameters as the previous notebook.
-- :orange_book: ``04_RockGAN2D_Beadpack(conv)_Tutorial copy.ipynb`: notebook performing a GAN tutorial for the beadpack dataset. Here G and D are adapted to use convolutional layers. 
-- :orange_book: ``05_RockGAN2D_Berea(conv)_Tutorial.ipynb`: notebook performing a GAN tutorial for the berea dataset. Here G and D are adapted to use convolutional layers. 
+- :orange_book: ``04_RockGAN2D_Beadpack(conv)_Tutorial copy.ipynb``: notebook performing a GAN tutorial for the beadpack dataset. Here G and D are adapted to use convolutional layers. 
+- :orange_book: ``05_RockGAN2D_Berea(conv)_Tutorial.ipynb``: notebook performing a GAN tutorial for the berea dataset. Here G and D are adapted to use convolutional layers. 
 
 
 ## Getting started :space_invader: :robot:
