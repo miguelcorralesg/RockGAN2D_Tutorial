@@ -1,9 +1,9 @@
+# GAN Tutorial for binary porous media generation in 2D
+
 ![LOGO](https://github.com/miguelcorralesg/RockGAN2D/blob/main/assets/meme_1png.png)  
 
-
-> **GAN Tutorial for binary porous media generation in 2D**\
-> Generative Adversarial Networks tutorial\
-> Corrales M.<sup>1</sup>
+> Generative Adversarial Networks tutorial
+> Corrales M.<sup>1</sup> <br>
 > King Abdullah University of Science and Technology (KAUST)<sup>1</sup>
 
 
