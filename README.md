@@ -1,25 +1,36 @@
 ![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
 
 
-> **GANs for binary porous media generation in 2D**\
+> **GAN Tutorial for binary porous media generation in 2D**\
 > Generative Adversarial Networks tutorial\
 > Corrales M.<sup>1</sup>, Ravasi M.<sup>1</sup>\
 > King Abdullah University of Science and Technology (KAUST)<sup>1</sup>
 
 
+This repository aims to provide a tutorial on Generative Adversarial Networks (GANs) for a geoscience problem, specifically focusing on digital rock generation. To simplify the learning approach, we begin with a basic notebook that utilizes the MNIST dataset. In this initial stage, the generator and discriminator networks are constructed using linear layers. This approach allows for a fast understanding of the problem and code execution.
+
+Once we grasp the fundamental concepts, we transition to a specific rock sample dataset while maintaining the same network architectures. This transition highlights the fact that the choice of architecture for training a GAN depends on the specific case at hand. In the subsequent examples, we employ convolutional layers as they prove to be more suitable for working with rock samples.
+
+It is important to note that in this tutorial, we do not utilize metrics to evaluate the quality of the generated results. The nature of our dataset, which is black and white (aslo different features fro natural images), restricts the use of metrics like FID (Fréchet Inception Distance) that rely on access to features from a pre-trained classification model. However, assessing the quality of the results can be accomplished by computing physical characteristics of the rock, such as porosity, surface area, or permeability. These metrics, although not included in this set of tutorials, can provide insights into the quality of the generated samples.
+
+For further exploration and if you're interested in incorporating these metrics, please refer to the following repository: https://github.com/DIG-Kaust/RockGAN.
+
+
 ## Project structure
 This repository is organized as follows:
 
-* :open_file_folder: **package**: python library containing routines for ....;
-* :open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data
-* :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
-* :open_file_folder: **scripts**: set of python scripts used to run multiple experiments ...
+* :open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data).
+* :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments for the tutorial.
+
 
 ## Notebooks
 The following notebooks are provided:
 
-- :orange_book: ``X1.ipynb``: notebook performing ...;
-- :orange_book: ``X2.ipynb``: notebook performing ...
+- :orange_book: ``01_Rock_Samples.ipynb``: notebook performing an illustrative demonstration of the appearance of rock samples and highlights the importance of generating additional digital samples.
+- :orange_book: ``02_MNIST_GAN_Tutorial.ipynb``: notebook performing a simple GAN tutorial using the MNIST dataset. Generator and Discriminator are built using linear layers. 
+- :orange_book: ``03_RockGAN2D_Beadpack_Tutorial.ipynb``: notebook performing a GAN tutorial using the beadpack dataset where we keep the same architecture and hyperparameters as the previous notebook.
+- :orange_book: ``04_RockGAN2D_Beadpack(conv)_Tutorial copy.ipynb`: notebook performing a GAN tutorial for the beadpack dataset. Here G and D are adapted to use convolutional layers. 
+- :orange_book: ``05_RockGAN2D_Berea(conv)_Tutorial.ipynb`: notebook performing a GAN tutorial for the berea dataset. Here G and D are adapted to use convolutional layers. 
 
 
 ## Getting started :space_invader: :robot:
@@ -29,23 +40,11 @@ Simply run:
 ```
 ./install_env.sh
 ```
-It will take some time, if at the end you see the word `Done!` on your terminal you are ready to go. After that you can simply install your package:
-```
-pip install .
-```
-or in developer mode:
-```
-pip install -e .
-```
+It will take some time, if at the end you see the word `Done!` on your terminal you are ready to go.
 
 Remember to always activate the environment by typing:
 ```
-conda activate my_env
-```
-
-Finally, to run tests simply type:
-```
-pytest
+conda activate rockgan2d
 ```
 
 > **Note** <br>
