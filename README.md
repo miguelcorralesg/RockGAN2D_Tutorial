@@ -1,4 +1,5 @@
-![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
+![LOGO](https://github.com/miguelcorralesg/RockGAN2D/blob/master/assets/meme_1png.png)
+
 
 
 > **GAN Tutorial for binary porous media generation in 2D**\
