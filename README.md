@@ -1,4 +1,4 @@
-![LOGO](https://github.com/miguelcorralesg/RockGAN2D/blob/master/assets/meme_1png.png)
+![LOGO](https://github.com/miguelcorralesg/RockGAN2D/assets/meme_1png.png)
 
 
 
