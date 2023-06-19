@@ -2,7 +2,7 @@
 
 ![LOGO](https://github.com/miguelcorralesg/RockGAN2D/blob/main/assets/meme_1png.png)  
 
-> Generative Adversarial Networks tutorial
+> Generative Adversarial Networks tutorial <br>
 > Corrales M.<sup>1</sup> <br>
 > King Abdullah University of Science and Technology (KAUST)<sup>1</sup>
 
