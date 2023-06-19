@@ -26,6 +26,6 @@ package/version.py
 # Large files
 old_files/
 mnist/
-data/beadpack/beapack.tif
+data/beadpack/beadpack.tif
 data/berea/berea.tif
 
