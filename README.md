@@ -4,7 +4,7 @@
 
 > **GAN Tutorial for binary porous media generation in 2D**\
 > Generative Adversarial Networks tutorial\
-> Corrales M.<sup>1</sup>, Ravasi M.<sup>1</sup>\
+> Corrales M.<sup>1</sup>
 > King Abdullah University of Science and Technology (KAUST)<sup>1</sup>
 
 
