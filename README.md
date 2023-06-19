@@ -16,7 +16,7 @@ It is important to note that in this tutorial, we do not utilize metrics to eval
 For further exploration and if you're interested in incorporating these metrics, please refer to the following repository: https://github.com/DIG-Kaust/RockGAN.
 
 
-## Project structure
+## Tutorial structure
 This repository is organized as follows:
 
 * :open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data).
