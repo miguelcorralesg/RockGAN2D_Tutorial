@@ -6,6 +6,8 @@
 > Corrales M.<sup>1</sup> <br>
 > King Abdullah University of Science and Technology (KAUST)<sup>1</sup>
 
+## Another tutorial on GANs?
+Yes, this tutorial provides valuable insights and knowledge gained from my own experiences. It's a concise resource for anyone interested in understanding and applying GANs (especifacilly for a geoscience problem). Let's embark on this exciting adventure together!
 
 This repository aims to provide a tutorial on Generative Adversarial Networks (GANs) for a geoscience problem, specifically focusing on digital rock generation. To simplify the learning approach, we begin with a basic notebook that utilizes the MNIST dataset. In this initial stage, the generator and discriminator networks are constructed using linear layers. This approach allows for a fast understanding of the problem and code execution.
 
